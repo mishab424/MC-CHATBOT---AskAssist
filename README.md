@@ -59,9 +59,10 @@ You may create a custom output storage table if you want to log user interaction
 ## 📣 Contact
 For plugin purchase, customization, or support:
 
-🔗 LinkedIn – Muhammed Mishab PP
+🔗 LinkedIn – [Muhammed Mishab PP](https://www.linkedin.com/in/muhammed-mishab-pp-)
 
 📧 Email: mishabpoomala424@gmail.com
 
 
 💡 Tip: This plugin is designed for Oracle APEX developers who want to provide interactive guided help or response systems within their apps.
+
