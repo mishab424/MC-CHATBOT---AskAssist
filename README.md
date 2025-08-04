@@ -1,125 +1,66 @@
-# MC CHATBOT - User Manual
+🤖 MC CHATBOT – Oracle APEX Plugin
+MC CHATBOT is a modern and advanced chatbot plugin for Oracle APEX that provides dynamic user interaction through predefined questions, sub-questions, and answers. Designed with a sleek UI/UX, it enhances user experience and automates information delivery.
 
-## Overview
+📌 Overview
+MC CHATBOT allows users to interact with a predefined conversational flow:
 
-**MC CHATBOT** is a pre-configured, modern chatbot plugin designed for Oracle APEX applications. It offers an advanced and intuitive UI/UX for delivering predefined question-answer interactions.
+Main Questions → Sub-Questions → Answers
 
----
+Perfect for building a helpdesk assistant, internal query bot, or customer support FAQ system.
 
-## Description
+🎯 Use Case
+Employee self-service helpdesk
 
-MC CHATBOT provides a structured chatbot interface where each conversation follows a defined hierarchy of main questions, sub-questions, and answers. It enhances user experience and helps automate responses to frequently asked queries.
+Customer support FAQs
 
----
+Guided data entry systems
 
-## Use Case
+Automated onboarding or troubleshooting
 
-MC CHATBOT is ideal for:
+✨ Features
+Clean, responsive, and modern UI/UX
 
-* Customer support systems
-* Employee onboarding
-* User training and navigation guidance
-* Automated FAQ interactions
-* Guided lead qualification
+Predefined hierarchical question/answer logic
 
----
+Fast performance using APEX AJAX processes
 
-## Features
+Easy to configure – just plug and play
 
-* Predefined question-answer flow
-* Dynamic loading of sub-questions based on user input
-* Real-time response delivery using Ajax
-* Modern and mobile-friendly UI
-* Simple integration within Oracle APEX pages
+Works with your existing Oracle APEX environment
 
----
+🛠️ Installation Guide
+Download the plugin file from the provided source.
 
-## Installation Guide
+Install the Plugin into your APEX application via Shared Components > Plugins.
 
-### Step 1: Download the Plugin
+Create a Region on the desired page and choose region type: MC CHATBOT.
 
-Download the plugin file from the `src` folder.
+⚠️ Do not rename the region.
 
-### Step 2: Import the Plugin
+Create Required Tables
+Set up three simple tables for storing main questions, sub-questions, and answers.
 
-In your Oracle APEX application:
+Create 3 AJAX Processes
 
-* Navigate to **Shared Components > Plug-ins > Import**.
-* Upload and install the MC CHATBOT plugin.
+fetch_main_question
 
-### Step 3: Create a Region
+fetch_sub_question
 
-* Go to the desired page in your app.
-* Add a new **Region**.
-* Set the **Region Type** to `MC CHATBOT`.
+fetch_answer
 
-> **Note:** Do **not rename** the region or process names used in the plugin.
+⚠️ Do not rename these processes.
 
-### Step 4: Prepare Backend Tables
+Start Using the Chatbot!
+Add your questions and answers, and see the chatbot in action.
 
-Create the following backend tables for chatbot operations:
+📤 Optional Output Storage
+You may create a custom output storage table if you want to log user interactions or chatbot activity.
 
-* Main Questions Table
-* Sub-Questions Table
-* Answers Table
+📣 Contact
+For plugin purchase, customization, or support:
 
-You may request the exact table structure if needed.
+🔗 LinkedIn – Muhammed Mishab PP
 
-### Step 5: Create Ajax Callback Processes
+📧 Email: mishabpoomala424@gmail.com
 
-Create the following Ajax processes:
-
-* `fetch_main_question`
-* `fetch_sub_question`
-* `fetch_answer`
-
-These processes dynamically load data for your chatbot.
-
-> **Note:** The process names should not be renamed or changed.
-
-### Step 6: Output Storage (Optional)
-
-You can optionally create a table to store user interactions or chatbot analytics data.
-
----
-
-## Demo Application
-
-Explore the live demo here:
-👉 [MC CHATBOT Demo App](https://apex.oracle.com/pls/apex/r/aishwaryak_dev/demo/home?session=10097774760994)
-
----
-
-## License
-
-**MC CHATBOT** is proprietary software developed by **Muhammed Mishab PP**.
-
-### License Terms
-
-* Non-exclusive, non-transferable license for internal use.
-* Redistribution, resale, or commercial reuse is prohibited without written permission.
-* Support and updates available through official contact.
-
-### Allowed:
-
-* Internal use across multiple APEX pages
-* Custom styling and behavior (non-commercial)
-
-### Not Allowed:
-
-* Public redistribution or resale
-* Removing author credits
-* Claiming ownership of the plugin
-
-For custom licensing needs, contact the developer.
-
----
-
-## 📣 Contact for Purchase / Customization
-
-**LinkedIn:** [Muhammed Mishab PP](https://www.linkedin.com/in/muhammed-mishab-pp-/)
-**Email:** [mishabpoomala424@gmail.com](mailto:mishabpoomala424@gmail.com)
-
----
-
-Thank you for using **MC CHATBOT**. For feature extensions or support, feel free to reach out.
+💡 Tip: This plugin is designed for Oracle APEX developers who want to provide interactive guided help or response systems within their apps.

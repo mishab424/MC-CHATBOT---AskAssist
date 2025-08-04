@@ -1,0 +1,17 @@
+DECLARE
+    l_answer VARCHAR2(4000);
+BEGIN
+    SELECT ANSWER
+    INTO l_answer
+    FROM ASNT_SMS_CHATBOT_SUB_QUESTION_ANSWER
+    WHERE SUB_QUESTION_ID = TO_NUMBER(APEX_APPLICATION.G_X01);
+
+    SYS.HTP.P(l_answer);
+
+
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        SYS.HTP.P('No answer found.');
+    WHEN OTHERS THEN
+        SYS.HTP.P('Unexpected error: ' || SQLERRM);
+END;

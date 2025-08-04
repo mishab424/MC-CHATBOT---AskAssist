@@ -1,0 +1,15 @@
+DECLARE
+  l_json CLOB;
+BEGIN
+  SELECT JSON_ARRAYAGG(
+           JSON_OBJECT(
+             'id' VALUE QUESTION_ID,
+             'name' VALUE QUESTION
+           )
+         )
+  INTO l_json
+  FROM ASNT_SMS_CHATBOT_MAIN_QUESTION
+  order by question_id;
+
+  SYS.HTP.P(l_json);
+END;
