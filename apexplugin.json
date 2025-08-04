@@ -19,7 +19,8 @@
       "email": "mishabpoomala424@gmail.com"
     },
     "license": "MIT",
-    "commercial": "Yes",
+    "commercial" : "Yes",
+    "commercially_supported":"Yes",
     "author": {
       "name": "Muhammed Mishab PP",
       "email": "mishabpoomala424@gmail.com",
@@ -42,6 +43,7 @@
       }
     }
   }
+
 
 
 
