@@ -1,7 +1,7 @@
 [
   {
     "name": "MC CHATBOT - AskAssist",
-    "version": "Basic 1.0.0",
+    "version": "1.0.0",
     "description": "MC CHATBOT - AskAssist is a dynamic Oracle APEX plugin that provides a predefined question-answer chatbot system with sub-question branching. Built with a modern UI/UX, it helps streamline user interaction for FAQs, onboarding, and guided support flows.",
     "keywords": [
       "oracle-apex-plugin",
@@ -13,9 +13,9 @@
       "askbot",
       "interactive-faq"
     ],
-    "homepage": "https://github.com/mishab424/MC-CHATBOT-",
+    "homepage": "https://github.com/mishab424/MC-CHATBOT---AskAssist",
     "bugs": {
-      "url": "https://github.com/mishab424/MC-CHATBOT-/issues",
+      "url": "https://github.com/mishab424/MC-CHATBOT---AskAssist/issues",
       "email": "mishabpoomala424@gmail.com"
     },
     "license": "MIT",
@@ -27,19 +27,20 @@
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/mishab424/MC-CHATBOT-.git"
+      "url": "https://github.com/mishab424/MC-CHATBOT---AskAssist.git"
     },
     "oracle": {
       "versions": ["12.2.0.1", "18c", "19c", "21c"],
       "apex": {
         "versions": ["24.2"],
         "plugin": {
-          "internalName": "MC_CHATBOT_PRO",
+          "internalName": "MC_CHATBOT___ASKASSIST",
           "type": "Template Component",
-          "demo": "https://apex.oracle.com/pls/apex/r/aishwaryak_dev/demo/home",
-          "previewImage": "https://raw.githubusercontent.com/mishab424/MC-CHATBOT/main/demo/preview.png"
+          "demo": "https://apex.oracle.com/pls/apex/r/mishab_demo_dev/mc-chatbpt-askassist/home",
+          "previewImage": "https://raw.githubusercontent.com/mishab424/MC-CHATBOT---AskAssist/refs/heads/main/Demo/Preview.png"
         }
       }
     }
   }
 ]
+
